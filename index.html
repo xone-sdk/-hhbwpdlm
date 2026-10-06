@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>小楠同志收</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 20px;
+    background: radial-gradient(circle at 50% 0%, #2a1f3d 0%, #14101f 55%, #0a0812 100%);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: #f2eef7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .card {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+  }
+  .prank {
+    font-size: clamp(26px, 8.5vw, 40px);
+    font-weight: 700;
+    line-height: 1.65;
+    letter-spacing: .05em;
+  }
+  .prank .p1 { color: #ffd166; }
+  .prank .p2 { color: #f2eef7; }
+  .prank .p3 { color: #ff9f9f; }
+
+  .rule {
+    width: 64px;
+    height: 2px;
+    margin: 34px auto;
+    border: 0;
+    background: linear-gradient(90deg, transparent, #6d5a8f, transparent);
+  }
+
+  .wish {
+    font-size: clamp(17px, 4.6vw, 21px);
+    line-height: 2.1;
+    letter-spacing: .03em;
+    color: #d8cfe8;
+  }
+  .wish .lead  { color: #b9a8d6; }
+  .wish .name  { color: #ffd166; font-weight: 600; }
+  .wish .days  { color: #8ee6c8; }
+  .wish .final {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 1.18em;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: .08em;
+    text-shadow: 0 0 26px rgba(255, 209, 102, .45);
+  }
+
+  .line, .rule { animation: rise .75s cubic-bezier(.2, .8, .2, 1) both; }
+  .l1 { animation-delay: .10s; }
+  .l2 { animation-delay: .28s; }
+  .l3 { animation-delay: .46s; }
+  .lv { animation-delay: .70s; }
+  .l4 { animation-delay: .92s; }
+  .l5 { animation-delay: 1.10s; }
+  .l6 { animation-delay: 1.28s; }
+  .l7 { animation-delay: 1.46s; }
+  .l8 { animation-delay: 1.64s; }
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .line, .rule { animation: none; }
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="prank">
+      <p class="line l1 p1">哈哈哈哈</p>
+      <p class="line l2 p2">骗到你了吗</p>
+      <p class="line l3 p3">小楠同志</p>
+    </div>
+
+    <hr class="rule lv">
+
+    <div class="wish">
+      <p class="line l4"><span class="lead">哈哈哈，开个玩笑啦</span></p>
+      <p class="line l5"><span class="lead">希望</span><span class="name">小楠同志</span></p>
+      <p class="line l6"><span class="days">今天快乐，明天快乐，后天快乐</span></p>
+      <p class="line l7"><span class="lead">希望</span><span class="name">小楠同志</span></p>
+      <p class="line l8"><span class="final">真的很快乐</span></p>
+    </div>
+  </main>
+</body>
+</html>
